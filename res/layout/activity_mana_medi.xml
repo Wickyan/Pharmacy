@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >"
+    
+    <Button
+        android:id="@+id/btnMLook"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:text="查看药品信息" />
+
+   
+    	
+       <Button
+           android:id="@+id/btnInsert"
+           android:layout_width="164dp"
+           android:layout_height="wrap_content"
+           android:text="添加药品信息" />
+
+       <Button
+           android:id="@+id/btnchakan"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="查看用户购买记录" />
+
+       <Button
+           android:id="@+id/btnmt"
+           android:layout_width="159dp"
+           android:layout_height="wrap_content"
+           android:text="退出登录" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="药品列表：" />
+   	
+    <ListView 
+         android:id="@+id/listview"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" />
+    
+</LinearLayout>

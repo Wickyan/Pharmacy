@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kusuri"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManaIndexActivity"
+            android:label="@string/title_activity_mana_index" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_index" >
+        </activity>
+        <activity
+            android:name=".ManaRegistActivity"
+            android:label="@string/title_activity_mana_regist" >
+        </activity>
+        <activity
+            android:name=".ManaMediActivity"
+            android:label="@string/title_activity_mana_medi" >
+        </activity>
+        <activity
+            android:name=".ManaInsertActivity"
+            android:label="@string/title_activity_mana_insert" >
+        </activity>
+        <activity
+            android:name=".ManaMedinoticeActivity"
+            android:label="@string/title_activity_mana_medinotice" >
+        </activity>
+        <activity
+            android:name=".UserIndexActivity"
+            android:label="@string/title_activity_user_index" >
+        </activity>
+        <activity
+            android:name=".UserRegisitActivity"
+            android:label="@string/title_activity_user_regisit" >
+        </activity>
+        <activity
+            android:name=".UserMediActivity"
+            android:label="@string/title_activity_user_medi" >
+        </activity>
+        <activity
+            android:name=".UserMedinoticeActivity"
+            android:label="@string/title_activity_user_medinotice" >
+        </activity>
+        <activity
+            android:name=".ManaVipActivity"
+            android:label="@string/title_activity_mana_vip" >
+        </activity>
+        <activity
+            android:name=".UserVipActivity"
+            android:label="@string/title_activity_user_vip" >
+        </activity>
+        <activity
+            android:name=".ConlistActivity"
+            android:label="@string/title_activity_conlist" >
+        </activity>
+        <activity
+            android:name=".ConlistInfoActivity"
+            android:label="@string/title_activity_conlist_info" >
+        </activity>
+        <activity
+            android:name=".MConlistActivity"
+            android:label="@string/title_activity_mconlist" >
+        </activity>
+        <activity
+            android:name=".MConlitInfoActivity"
+            android:label="@string/title_activity_mconlit_info" >
+        </activity>
+        <activity
+            android:name=".MConlistInfoActivity"
+            android:label="@string/title_activity_mconlist_info" >
+        </activity>
+        <activity
+            android:name=".UserMedinotice2Activity"
+            android:label="@string/title_activity_user_medinotice2" >
+        </activity>
+    </application>
+
+</manifest>

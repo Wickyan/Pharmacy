@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kusuri</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mana_index">MainActivity</string>
+    <string name="title_activity_index">MainActivity</string>
+    <string name="title_activity_mana_regist">MainActivity</string>
+    <string name="title_activity_mana_medi">MainActivity</string>
+    <string name="title_activity_mana_insert">MainActivity</string>
+    <string name="title_activity_mana_medinotice">MainActivity</string>
+    <string name="title_activity_user_index">MainActivity</string>
+    <string name="title_activity_user_regisit">MainActivity</string>
+    <string name="title_activity_user_medi">MainActivity</string>
+    <string name="title_activity_user_medinotice">MainActivity</string>
+    <string name="title_activity_mana_vip">MainActivity</string>
+    <string name="title_activity_user_vip">MainActivity</string>
+    <string name="title_activity_mana_look">ManaLookActivity</string>
+    <string name="title_activity_conlist">ConlistActivity</string>
+    <string name="title_activity_conlist_info">ConlistInfoActivity</string>
+    <string name="title_activity_mconlist">MConlistActivity</string>
+    <string name="title_activity_mconlit_info">MConlitInfoActivity</string>
+    <string name="title_activity_mconlist_info">MConlistInfoActivity</string>
+    <string name="title_activity_user_medinotice2">UserMedinotice2Activity</string>
+
+</resources>
